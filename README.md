@@ -1,2 +1,2 @@
 # samuel-howard-website
-This is my website, currently in development and not hoested.
+This is my website, currently in development and not hosted.
