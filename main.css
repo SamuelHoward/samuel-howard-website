@@ -1,0 +1,265 @@
+/*/////////////////////////////////////////////////////////////////////////////
+
+  This is the primary CSS file for Samuel Howard's website.
+  Everything is written by Samuel Howard unless explicitly stated otherwise.
+
+/////////////////////////////////////////////////////////////////////////////*/
+
+/*
+  CSS Reset by Eric A. Meyer
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of css reset */
+
+/*
+  Custom Styles
+*/
+
+body {
+  margin: 20px auto;
+  max-width: 50em;
+}
+
+h1, h2, h3, h4, h5 {
+
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.inner-plate {
+  background: #fff;
+  padding: 2%;
+  margin: 3%;
+	border-radius: 30px;
+}
+
+.inner-plate p {
+  font-size: 20px;
+  margin: 2%;
+}
+
+.line {
+	background: #000;
+	height:5px;
+	margin: 10px 5px;
+}
+
+.page-title {
+	text-align: center;
+}
+
+.page {
+
+}
+
+.page p {
+	font-size: 20px;
+}
+
+.page-head {
+
+}
+
+.page-body {
+	margin: 10px;
+}
+
+.page-body p {
+	margin: 20px;
+}
+
+
+/*
+  Clearfix by Shay Howe
+  https://learn.shayhowe.com/html-css/positioning-content/
+*/
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.primary-header {
+  background: #c9daf8;
+  padding: 2%;
+  font: 300 16px/18px "Source Code Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*margin: 3%;*/
+
+	margin-bottom: 15px;
+
+  max-height: 12em;
+}
+
+.primary-header img {
+
+  margin: 3% 3% 3% 0%;
+
+
+  height: 9em;
+
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+
+  border-radius: 50% 50% 50% 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000;
+
+  -webkit-transform: rotate(270deg);
+     -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+       -o-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.top-plate {
+	max-width: 24em;
+	max-height: 8em;
+	display: inline-block;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.home {
+
+}
+
+.home-head {
+
+}
+
+.home-body {
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav {
+	text-align: center;
+}
+
+
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.footer-top {
+
+	background: #c9daf8;
+  padding: 2%;
+  font: 300 16px/18px "Source Code Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*margin: 3%;*/
+
+  max-height: 6em;
+}
+
+.bottom-plate {
+	max-width: 600px;
+	margin: 0 auto;
+}
